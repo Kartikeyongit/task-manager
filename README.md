@@ -127,11 +127,11 @@ NEXT_PUBLIC_API_URL=http://localhost:5000/api
 
 ## 📸 **Screenshots**
 ### **Login Screen**
-https://via.placeholder.com/400x250/3b82f6/ffffff?text=Login+Screen
+<img width="1850" height="1009" alt="Screenshot 2025-12-03 173658" src="https://github.com/user-attachments/assets/cbb98965-7f2a-4329-881b-2969b4b13c01" />
 ### **Dashboard**	
-https://via.placeholder.com/400x250/10b981/ffffff?text=Dashboard
+<img width="1832" height="1004" alt="Screenshot 2025-12-03 173728" src="https://github.com/user-attachments/assets/13183595-e137-40b7-b64e-e1b215f60671" />
 ### **Task Creation**
-https://via.placeholder.com/400x250/8b5cf6/ffffff?text=Task+Form
+<img width="1825" height="1006" alt="Screenshot 2025-12-03 173755" src="https://github.com/user-attachments/assets/47e2108b-1219-4766-a750-5e625d48b439" />
 
 ## 📊 **API Documentation**
 ### **Authentication**
