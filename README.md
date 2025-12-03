@@ -54,15 +54,17 @@ A full-featured task management application built with the MERN stack (MongoDB, 
 ```bash
 git clone https://github.com/Kartikeyongit/task-manager.git
 cd task-manager
-Backend Setup
+```
 
-bash
+2. **Backend Setup**
+```bash
 cd backend
 npm install
 # Create .env file with:
 # MONGODB_URI=your_mongodb_connection_string
 # JWT_SECRET=your_jwt_secret_key
 npm run dev
+```
 Frontend Setup
 
 bash
