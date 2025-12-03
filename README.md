@@ -146,36 +146,27 @@ https://via.placeholder.com/400x250/8b5cf6/ffffff?text=Task+Form
 - **DELETE** /api/tasks/:id - Delete task
 - **GET** /api/tasks/stats - Get task statistics
 
-Health Check
-GET /health - API health status
+### **Health Check**
+- **GET** /health - API health status
 
-🚢 Deployment
-Backend Deployment (Render/Railway)
-Push code to GitHub
+## 🚢 **Deployment**
+### **Backend Deployment (Render/Railway)**
+- Push code to GitHub
+- Create new Web Service on Render
+- Set root directory to backend
+- Build command: npm install && npm run build
+- Start command: npm start
+- Add environment variables
 
-Create new Web Service on Render
-
-Set root directory to backend
-
-Build command: npm install && npm run build
-
-Start command: npm start
-
-Add environment variables
-
-Frontend Deployment (Vercel)
-Import repository to Vercel
-
-Set root directory to frontend
-
-Set build command: npm run build
-
-Add environment variable: NEXT_PUBLIC_API_URL
-
-Deploy!
+### **Frontend Deployment (Vercel)**
+- Import repository to Vercel
+- Set root directory to frontend
+- Set build command: npm run build
+- Add environment variable: NEXT_PUBLIC_API_URL
+- Deploy!
 
 🧪 Testing
-bash
+```bash
 # Test backend API
 cd backend
 npm run dev
@@ -185,64 +176,45 @@ npm run dev
 cd frontend
 npm run dev
 # Open http://localhost:3000
-🚧 Future Enhancements
-Real-time updates with WebSockets
+```
 
-File attachments for tasks
+## 🚧 **Future Enhancements**
+- Real-time updates with WebSockets
+- File attachments for tasks
+- Email notifications for due dates
+- Calendar view integration
+- Team collaboration features
+- Mobile app with React Native
+- Export/Import tasks (CSV, PDF)
+- Advanced analytics dashboard
+- Recurring tasks functionality
+- Task templates for quick creation
 
-Email notifications for due dates
+## 🤝 **Contributing**
+- Fork the repository
+- Create a feature branch (git checkout -b feature/AmazingFeature)
+- Commit your changes (git commit -m 'Add some AmazingFeature')
+- Push to the branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
 
-Calendar view integration
-
-Team collaboration features
-
-Mobile app with React Native
-
-Export/Import tasks (CSV, PDF)
-
-Advanced analytics dashboard
-
-Recurring tasks functionality
-
-Task templates for quick creation
-
-🤝 Contributing
-Fork the repository
-
-Create a feature branch (git checkout -b feature/AmazingFeature)
-
-Commit your changes (git commit -m 'Add some AmazingFeature')
-
-Push to the branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
-
-📄 License
+## 📄 **License**
 Distributed under the MIT License. See LICENSE file for more information.
 
-👨‍💻 Author
-Kartikey Gautam
+## 👨‍💻 **Author**
+- Kartikey Gautam
+- GitHub: @kartikey-gautam
+- LinkedIn: Kartikey Gautam
+- Portfolio: [Coming Soon]
 
-GitHub: @kartikey-gautam
+## 🙏 **Acknowledgments**
+- Next.js Documentation
+- Tailwind CSS
+- MongoDB Atlas
+- React Query
+- Lucide Icons
+- React Hook Form
 
-LinkedIn: Kartikey Gautam
-
-Portfolio: [Coming Soon]
-
-🙏 Acknowledgments
-Next.js Documentation
-
-Tailwind CSS
-
-MongoDB Atlas
-
-React Query
-
-Lucide Icons
-
-React Hook Form
-
-⭐ Show Your Support
+## ⭐ **Show Your Support**
 Give a ⭐️ if this project helped you!
 
-Built with ❤️ using the MERN stack & Next.js
+## **Built with ❤️ using the MERN stack & Next.js**
