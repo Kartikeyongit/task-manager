@@ -65,22 +65,20 @@ npm install
 # JWT_SECRET=your_jwt_secret_key
 npm run dev
 ```
-Frontend Setup
-
-bash
+3. **Frontend Setup**
+```bash
 cd frontend
 npm install
 npm run dev
-Access the application
+```
+## **Access the application**
 
-Frontend: http://localhost:3000
+- **Frontend**: http://localhost:3000
+- **Backend API**: http://localhost:5000
+- **API Health Check**: http://localhost:5000/health
 
-Backend API: http://localhost:5000
-
-API Health Check: http://localhost:5000/health
-
-📁 Project Structure
-text
+## 📁 **Project Structure**
+```text
 task-manager/
 ├── backend/                 # Express.js REST API
 │   ├── src/
@@ -113,36 +111,40 @@ task-manager/
 │   └── tailwind.config.ts
 │
 └── README.md              # This file
-🔧 Environment Variables
-Backend (.env)
-env
+```
+
+## 🔧 **Environment Variables**
+### **Backend (.env)**
+```env
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/taskmanager
 JWT_SECRET=your_super_secret_jwt_key_change_this_in_production
 PORT=5000
-Frontend (.env.local)
-env
+```
+### **Frontend (.env.local)**
+```env
 NEXT_PUBLIC_API_URL=http://localhost:5000/api
-📸 Screenshots
-Login Screen	Dashboard	Task Creation
-https://via.placeholder.com/400x250/3b82f6/ffffff?text=Login+Screen	https://via.placeholder.com/400x250/10b981/ffffff?text=Dashboard	https://via.placeholder.com/400x250/8b5cf6/ffffff?text=Task+Form
-📊 API Documentation
-Authentication
-POST /api/auth/register - Register new user
+```
 
-POST /api/auth/login - Login user
+## 📸 **Screenshots**
+### **Login Screen**
+https://via.placeholder.com/400x250/3b82f6/ffffff?text=Login+Screen
+### **Dashboard**	
+https://via.placeholder.com/400x250/10b981/ffffff?text=Dashboard
+### **Task Creation**
+https://via.placeholder.com/400x250/8b5cf6/ffffff?text=Task+Form
 
-GET /api/auth/me - Get current user (protected)
+## 📊 **API Documentation**
+### **Authentication**
+- **POST** /api/auth/register - Register new user
+- **POST** /api/auth/login - Login user
+- **GET** /api/auth/me - Get current user (protected)
 
-Tasks (Protected Routes)
-GET /api/tasks - Get all tasks for user (with filters)
-
-POST /api/tasks - Create new task
-
-PUT /api/tasks/:id - Update task
-
-DELETE /api/tasks/:id - Delete task
-
-GET /api/tasks/stats - Get task statistics
+### **Tasks (Protected Routes)**
+- **GET** /api/tasks - Get all tasks for user (with filters)
+- **POST** /api/tasks - Create new task
+- **PUT** /api/tasks/:id - Update task
+- **DELETE** /api/tasks/:id - Delete task
+- **GET** /api/tasks/stats - Get task statistics
 
 Health Check
 GET /health - API health status
