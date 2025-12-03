@@ -217,4 +217,4 @@ Distributed under the MIT License. See LICENSE file for more information.
 ## ⭐ **Show Your Support**
 Give a ⭐️ if this project helped you!
 
-## **Built with ❤️ using the MERN stack & Next.js**
+### **Built with ❤️ using the MERN stack & Next.js**
