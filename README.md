@@ -1,6 +1,6 @@
 # 🚀 TaskFlow - Modern Task Management App
 
-A full-featured task management application built with the MERN stack (MongoDB, Express.js, React, Node.js) and Next.js 14. Features user authentication, real-time task management, advanced filtering, and a beautiful responsive interface.
+Modern task management app with MERN stack & Next.js
 
 ## ✨ Features
 
